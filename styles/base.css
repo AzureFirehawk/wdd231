@@ -25,11 +25,11 @@
     align-items: center;
 }
 
-header h1 {
+header h2 {
     font-size: 2.3em;
 }
 
-h1, .boxtitle, .head-title {
+h1, header h2, .boxtitle, .head-title {
     color: var(--heading-color);
     padding: 16px;
     background-color: var(--heading-background);
