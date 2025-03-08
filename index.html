@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 231 — Web Frontend Development I — Madison Thomas</title>
+    <meta name="description"
+        content="Madison Thomas homepage about resources WDD 231 Web Frontened Development I BYU-Idaho">
+    <meta name="author" content="Madison Thomas">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navmenu.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="head-title">
+            <img src="images/profile.jpg" alt="Hello, my name is Madison Thomas" width="100">
+            <h1>Madison Thomas</h1>
+        </div>
+        <button type="button" id="menu" aria-label="Menu"></button>
+        <nav class="top flex">
+            <ul class="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://www.linkedin.com/in/madisonthomas094">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="main-content">
+            <div class="row1">
+                <section class="card about">
+                    <h2 class="boxtitle">Course Work</h2>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <section class="card ok">
+                    <h2 class="boxtitle">Oklahoma, USA</h2>
+                    <figure>
+                        <img src="images/oklahoma-fall.jpg" alt="Oklahoma Fall Skyline" width="300">
+                        <figcaption>Oklahoma Fall Colors</figcaption>
+                    </figure>
+                </section>
+            </div>
+            <aside class="card cert">
+                <h2 class="boxtitle">Web and Computer Programming Certificate</h2>
+                <div class="filters">
+                    <button type="button" id="all">All</button>
+                    <button type="button" id="CSE">CSE</button>
+                    <button type="button" id="WDD">WDD</button>
+                </div>
+                <div class="courses">
+
+                </div>
+            </aside>
+        </div>    
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🎸 Madison Thomas 🎸 Oklahoma, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
