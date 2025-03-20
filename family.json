@@ -1,0 +1,23 @@
+{
+    "family_name" : "Thomas",
+    "move_in_date" : "2022-08-28",
+    "number_of_people" : 3,
+    "visited_by_bishopric" : true,
+    "family_members" : [
+        {
+            "name" : "Madison Thomas",
+            "gender" : "Male",
+            "birthdate" : "1994-01-07"
+        },
+        {
+            "name" : "Sariah Thomas",
+            "gender" : "Female",
+            "birthdate" : "1990-11-23"
+        },
+        {
+            "name" : "Asher Thomas",
+            "gender" : "Male",
+            "birthdate" : "2024-12-06"
+        }
+    ]
+}
