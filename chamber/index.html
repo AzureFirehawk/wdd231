@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Madison Thomas">
-    <meta name="description" content="Noble Chamber of Commerce directory page WDD 231 Web Frontened Development I BYU-Idaho">
-    <title>Directory Page - Noble Chamber of Commerce</title>    
+    <meta name="description" content="Noble Chamber of Commerce home page WDD 231 Web Frontened Development I BYU-Idaho">
+    <title>Home Page - Noble Chamber of Commerce</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat&display=swap" rel="stylesheet">
@@ -20,22 +20,33 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Noble Chamber of Commerce Logo">
-        <h1>Noble Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="https://github.com/AzureFirehawk">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/madisonthomas094">LinkedIn</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <button id="menu-button">☰</button>
-        <ul id="menu">
-            <li><a href="index.html">Home</a></li>            
-            <li><a href="directory.html" class="active">Directory</a></li>
-            <li><a href="join.html">Join Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <main>        
-        <h2>Business Directory</h2>
-        <p>Join us and take advantage of our many services and opportunities!</p>
-    </main>        
+    <main>
+        <div class="hero">
+            <img src="" alt="Noble Chamber of Commerce Hero">
+            <button id="join"></button>
+        </div>
+        <h1>Home Page</h1>
+        <div class="eventsWeather">
+            <section>
+                <h2>Events</h2>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+            </section>
+            <section>
+                <h2>Forecast</h2>
+            </section>
+        </div>
+    </main>
     <footer>
         <div>
             <div>
@@ -47,10 +58,6 @@
             <div>
                 
             </div>
-        </div>
-        <div>
-            <p>©<span id="currentyear"></span> 🎸 Madison Thomas 🎸 Oklahoma, USA</p>
-            <p id="lastModified"></p>
         </div>
     </footer>
 </body>
