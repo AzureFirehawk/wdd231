@@ -1,7 +1,10 @@
-[
+{
+    "title": "Noble Chamber of Commerce",
+    "members": [
     {
         "name": "Noble Animal Clinic",
-        "address": "323 S Main Street, Noble, OK 73068",
+        "address1": "323 S Main Street", 
+        "address2": "Noble, OK 73068",
         "phone": "(405) 872-8382",
         "url": "https://www.nobleanimalclinic.com/",
         "image": "images/noble-animal-clinic.jpg",
@@ -10,7 +13,8 @@
     },
     {
         "name": "Noble Pharmacy",
-        "address": "125 S Main Street, Noble, OK 73068",
+        "address1": "125 S Main Street", 
+        "address2": "Noble, OK 73068",
         "phone": "(405) 872-5335",
         "url": "https://www.noblepharmacy.com/",
         "image": "images/noble-pharmacy.jpg",
@@ -19,7 +23,8 @@
     },
     {
         "name": "Impact Counseling",
-        "address": "115 S Main Street, Noble, OK 73068",
+        "address1": "115 S Main Street", 
+        "address2": "Noble, OK 73068",
         "phone": "(405) 872-8461",
         "url": "https://www.impactcounselingcenter.com/",
         "image": "images/impact-counseling.jpg",
@@ -28,7 +33,8 @@
     },
     {
         "name": "Donuts Palace",
-        "address": "600 N Main Street, Noble, OK 73068",
+        "address1": "600 N Main Street", 
+        "address2": "Noble, OK 73068",
         "phone": "(405) 872-1488",
         "url": "https://donuts-palace.edan.io/",
         "image": "images/donuts-palace.jpg",
@@ -37,7 +43,8 @@
     },
     {
         "name": "Smokin' Joes",
-        "address": "405 S Main Street, Noble, OK 73068",
+        "address1": "405 S Main Street",
+        "address2": "Noble, OK 73068",
         "phone": "(405) 407-6133",
         "url": "https://www.noblesmokinjoesbbq.com/",
         "image": "images/smokin-joes.jpg",
@@ -46,7 +53,8 @@
     },
     {
         "name": "Tiffany's Restaurant",
-        "address": "101 S Main Street, Noble, OK 73068",
+        "address1": "101 S Main Street",
+        "address2": "Noble, OK 73068",
         "phone": "(405) 872-7576",
         "url": "https://www.noblepetsupplies.com/",
         "image": "images/tiffanys.jpg",
@@ -55,11 +63,23 @@
     },
     {
         "name": "Armstrong Bank",
-        "address": "805 N Main Street, Noble, OK 73068",
+        "address1": "805 N Main Street", 
+        "address2": "Noble, OK 73068",
         "phone": "(405) 872-0505",
         "url": "https://www.armstrong.bank/",
         "image": "images/armstrong-bank.jpg",
         "membership": 3,
         "year-established": 1909
+    },
+    {
+        "name": "New Leaf Fitness & Nutrition",
+        "address1": "1000 Parkwoods Drive", 
+        "address2": "Noble, OK 73068",
+        "phone": "(405) 410-2312",
+        "url": "",
+        "image": "images/new-leaf.jpg",
+        "membership": 2,
+        "year-established": 2003
     }
-]
+    ]
+}

@@ -17,7 +17,7 @@
 
 /* Header content */
 
-header {
+header, footer {
     background-color: var(--header-back);
     color: var(--header-color);
     padding: 10px;
@@ -95,4 +95,43 @@ nav ul {
 
 nav.open {
     grid-template-rows: 1fr;
+}
+
+/* Main content */
+
+main h1, main h2 {
+    font-family: var(--big-font);
+    padding: 1rem;
+}
+
+main p {
+    font-family: var(--small-font);
+    margin-bottom: 5px;
+}
+
+.page-title p {
+    margin-top: -20px;
+}
+
+.page-title {
+    text-align: center;
+    padding: 1rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    gap: 1rem;
+    text-align: center;
+}
+
+/* Footer content */
+
+footer {
+    display: flex;
+    padding: 10px;
+    font-family: var(--small-font);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
