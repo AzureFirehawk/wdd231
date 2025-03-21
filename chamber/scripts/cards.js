@@ -12,6 +12,7 @@ getBusinessData();
 const displayBusiness = (members) => {
     members.forEach(member => {
         let card = document.createElement('section');
+        let text = document.createElement('div');
         let h2 = document.createElement('h2');
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
@@ -26,12 +27,16 @@ const displayBusiness = (members) => {
         image.setAttribute('src', member.image);
         image.setAttribute('alt', `${member.name} logo`);
         image.setAttribute('loading', 'lazy');
+        image.setAttribute('width', '200');
+        image.setAttribute('height', '200');
 
-        card.appendChild(h2);
-        card.appendChild(p1);
-        card.appendChild(p2);
-        card.appendChild(phone);
         card.appendChild(image);
+        card.appendChild(h2);
+        text.appendChild(p1);
+        text.appendChild(p2);
+        text.appendChild(phone);
+        card.appendChild(text);
+    
         cards.appendChild(card);
     })
 }

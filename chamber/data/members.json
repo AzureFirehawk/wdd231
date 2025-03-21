@@ -7,7 +7,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-8382",
         "url": "https://www.nobleanimalclinic.com/",
-        "image": "images/noble-animal-clinic.jpg",
+        "image": "./images/noble-animal-clinic.jpg",
         "membership": 3,
         "year-established": 1985
     },
@@ -17,7 +17,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-5335",
         "url": "https://www.noblepharmacy.com/",
-        "image": "images/noble-pharmacy.jpg",
+        "image": "./images/noble-pharmacy.jpg",
         "membership": 2,
         "year-established": 1982
     },
@@ -27,7 +27,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-8461",
         "url": "https://www.impactcounselingcenter.com/",
-        "image": "images/impact-counseling.jpg",
+        "image": "./images/impact-counseling.jpg",
         "membership": 1,
         "year-established": 2003
     },
@@ -37,7 +37,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-1488",
         "url": "https://donuts-palace.edan.io/",
-        "image": "images/donuts-palace.jpg",
+        "image": "./images/donuts-palace.jpg",
         "membership": 1,
         "year-established": 2011
     },
@@ -47,7 +47,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 407-6133",
         "url": "https://www.noblesmokinjoesbbq.com/",
-        "image": "images/smokin-joes.jpg",
+        "image": "./images/smokin-joes.jpg",
         "membership": 2,
         "year-established": 2007
     },
@@ -56,8 +56,8 @@
         "address1": "101 S Main Street",
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-7576",
-        "url": "https://www.noblepetsupplies.com/",
-        "image": "images/tiffanys.jpg",
+        "url": "https://www.tiffanysnoble.com/",
+        "image": "./images/tiffanys.jpg",
         "membership": 2,
         "year-established": 2000
     },
@@ -67,17 +67,17 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-0505",
         "url": "https://www.armstrong.bank/",
-        "image": "images/armstrong-bank.jpg",
+        "image": "./images/armstrong-bank.png",
         "membership": 3,
         "year-established": 1909
     },
     {
-        "name": "New Leaf Fitness & Nutrition",
+        "name": "New Leaf Fitness",
         "address1": "1000 Parkwoods Drive", 
         "address2": "Noble, OK 73068",
         "phone": "(405) 410-2312",
         "url": "",
-        "image": "images/new-leaf.jpg",
+        "image": "./images/new-leaf.jpg",
         "membership": 2,
         "year-established": 2003
     }
