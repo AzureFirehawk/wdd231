@@ -98,7 +98,9 @@ nav.open {
 }
 
 /* Main content */
-
+main {
+    background-color: #e5e6ea;
+}
 main h1, main h2 {
     font-family: var(--big-font);
     padding: 1rem;
