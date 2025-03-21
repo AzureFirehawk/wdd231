@@ -17,9 +17,13 @@
 
 /* Header content */
 
+header, footer, #menuButton, ul.nav li a {
+    color: var(--header-color);
+}
+
 header, footer {
     background-color: var(--header-back);
-    color: var(--header-color);
+    
     padding: 10px;
 }
 
@@ -43,7 +47,7 @@ header h2 {
 	font-size: 1.8rem;
 	border: none;
 	background: none;
-	color: var(--header-color);
+	
     cursor: pointer;
  	position: absolute;
     right: 1.5rem;
@@ -63,7 +67,7 @@ ul.nav {
 }
 
 ul.nav li a {
-    color: var(--header-color);
+    
     display: block;
     padding: .5rem 2vw;
     text-decoration: none;
