@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-large.css">
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navmenu.js" defer></script>
     <meta property="og:title" content="Noble Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/og-image.png">
@@ -20,14 +21,17 @@
 </head>
 <body>
     <header>
-        <img src="images/noble-logo.png" alt="Noble Chamber of Commerce Logo">
-        <h1>Noble Chamber of Commerce</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+        <div id="logo">
+            <img src="images/noble-logo.png" alt="Noble Chamber of Commerce Logo" id="logo" width="60" height="60">
+            <h2>Noble Chamber of Commerce</h2>
+        </div>
+        <button id="menuButton" aria-label="Menu"></button>
+        <nav id="animate">
+            <ul class="nav">
+                <li class="active"><a href="index.html">Home</a></li>            
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="https://github.com/AzureFirehawk">GitHub Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/madisonthomas094">LinkedIn</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>

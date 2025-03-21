@@ -59,7 +59,6 @@ header h2 {
 }
 
 ul.nav {
-    display: none;
     list-style-type: none;
 }
 
@@ -84,6 +83,16 @@ ul.nav li a {
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
 }
 
-.nav.open {
-    display: block;
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open {
+    grid-template-rows: 1fr;
 }
