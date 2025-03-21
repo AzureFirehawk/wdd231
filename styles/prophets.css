@@ -1,0 +1,45 @@
+header {
+    color: blueviolet;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 30px gray;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(194, 165, 209);
+    box-shadow: 0 0 30px gray;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+.card p {font-size: 1rem};
+
+@media only screen and (min-width: 32rem) {
+    .card {font-size: 2rem};
+}
