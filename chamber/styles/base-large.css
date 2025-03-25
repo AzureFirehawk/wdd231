@@ -12,6 +12,18 @@
         grid-template-rows: 1fr;
     }
 
+    #cards.list {
+        display: block;
+    }
+
+    #cards.list .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
 
 @media only screen and (min-width: 725px) {

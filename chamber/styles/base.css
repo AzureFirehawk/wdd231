@@ -135,8 +135,7 @@ div.join-us {
     left: 20%;
 }
 
-div.join-us p{
-    bottom: 5%;
+div.join-us p {
     padding: 15px;
     font-family: var(--small-font);
     background-color: rgba(225,225,225,0.6);
@@ -150,14 +149,41 @@ div.join-us p a, .card a {
     color: black;
 }
 
-div.join-us p:hover {
+div.join-us p:hover{
     background-color: rgba(225,225,225,1);
     text-decoration: underline;
     transform: translateY(-2px);
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
 }
 
-#cards{
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--small-font);
+    background-color: var(--header-back);
+    color: white;
+}
+
+.filter-buttons button:hover {
+    background-color: var(--dark-blue);
+    transform: translateY(-2px);
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.filter-buttons button.active {
+    background-color: var(--dark-blue);
+}
+
+#cards.grid, #cards.list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(275px, 2fr));
     gap: 1rem;
@@ -168,7 +194,8 @@ div.join-us p:hover {
 }
 
 .card img {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     height: auto;
 }
 
