@@ -7,6 +7,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-8382",
         "url": "https://www.nobleanimalclinic.com/",
+        "urlText": "nobleanimalclinic.com",
         "image": "./images/noble-animal-clinic.jpg",
         "membership": 3,
         "year-established": 1985
@@ -17,6 +18,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-5335",
         "url": "https://www.noblepharmacy.com/",
+        "urlText": "noblepharmacy.com",
         "image": "./images/noble-pharmacy.jpg",
         "membership": 2,
         "year-established": 1982
@@ -27,6 +29,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-8461",
         "url": "https://www.impactcounselingcenter.com/",
+        "urlText": "impactcounselingcenter.com",
         "image": "./images/impact-counseling.jpg",
         "membership": 1,
         "year-established": 2003
@@ -37,6 +40,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-1488",
         "url": "https://donuts-palace.edan.io/",
+        "urlText": "donuts-palace.edan.io",
         "image": "./images/donuts-palace.jpg",
         "membership": 1,
         "year-established": 2011
@@ -47,6 +51,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 407-6133",
         "url": "https://www.noblesmokinjoesbbq.com/",
+        "urlText": "noblesmokinjoesbbq.com",
         "image": "./images/smokin-joes.jpg",
         "membership": 2,
         "year-established": 2007
@@ -57,6 +62,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-7576",
         "url": "https://www.tiffanysnoble.com/",
+        "urlText": "tiffanysnoble.com",
         "image": "./images/tiffanys.jpg",
         "membership": 2,
         "year-established": 2000
@@ -67,6 +73,7 @@
         "address2": "Noble, OK 73068",
         "phone": "(405) 872-0505",
         "url": "https://www.armstrong.bank/",
+        "urlText": "armstrong.bank",
         "image": "./images/armstrong-bank.png",
         "membership": 3,
         "year-established": 1909
@@ -76,7 +83,8 @@
         "address1": "1000 Parkwoods Drive", 
         "address2": "Noble, OK 73068",
         "phone": "(405) 410-2312",
-        "url": "",
+        "url": "https://www.newleaffitness.com/",
+        "urlText": "newleaffitness.com",
         "image": "./images/new-leaf.jpg",
         "membership": 2,
         "year-established": 2003

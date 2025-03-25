@@ -76,7 +76,7 @@ ul.nav li a {
     font-weight: bold;
 }
 
-.nav li:hover {
+.nav li:hover, main a:hover {
     text-decoration: underline;
     background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(2px);
@@ -101,12 +101,13 @@ nav.open {
 main {
     background-color: #e5e6ea;
 }
+
 main h1, main h2 {
     font-family: var(--big-font);
     padding: 1rem;
 }
 
-main p {
+main p, main a, figcaption {
     font-family: var(--small-font);
     margin-bottom: 5px;
 }
@@ -124,8 +125,37 @@ main p {
     height: auto;
 }
 
+.hero {
+    position: relative;
+}
 
-#cards {
+div.join-us {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+
+div.join-us button{
+    bottom: 5%;
+    padding: 15px;
+    font-family: var(--small-font);
+    background-color: rgba(225,225,225,0.6);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+div.join-us button a, .card a {
+    text-decoration: none;
+    color: black;
+}
+
+div.join-us button:hover {
+    background-color: rgba(225,225,225,1);
+    text-decoration: underline;
+}
+
+#cards, #spotlight {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     gap: 1rem;
@@ -139,6 +169,19 @@ main p {
     width: 200px;
     height: auto;
 }
+
+section.events {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 0.25rem;
+}
+
+section.events > div {
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
 
 /* Footer content */
 

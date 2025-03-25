@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Madison Thomas">
-    <meta name="description" content="Noble Chamber of Commerce directory page WDD 231 Web Frontened Development I BYU-Idaho">
+    <meta name="description" content="Noble Chamber of Commerce home page WDD 231 Web Frontened Development I BYU-Idaho">
     <title>Home - Noble Chamber of Commerce</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,8 @@
     <link rel="icon" href="images/favicon.ico">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navmenu.js" defer></script>
-    <script src="scripts/cards.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <meta property="og:title" content="Noble Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://azurefirehawk.github.io/wdd231/chamber/images/noble-logo.png">
@@ -39,12 +40,44 @@
     </header>
     <main>        
         <div class="hero">
-            <h1>Home Page</h1>
+            <h1>Home</h1>
             <picture>
                 <source media="(min-width: 400px)" srcset="images/hero.webp">
                 <img src="images/hero-small.webp" alt="Noble OK welcome sign" width="400">
             </picture>
+            <div class="join-us">
+                <button id="join" class="button" aria-label="Join Us"><a href="join.html"><strong>Join Our Community</strong></a></button>
+            </div>
         </div>
+        <section class="events">
+            <div>
+                <h2>Upcoming Events</h2>
+                <div id="events">
+
+                </div>
+            </div>
+            <div>
+                <h2>Weather</h2>
+                <div id="weather">
+                    <p>Current Temperature: <span id="current-temp"></span> °F</p>    
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div>
+                <h2>Forecast</h2>
+                <div id="forecast">
+    
+                </div>
+            </div>
+        </section>
+        <h2>Spotlight</h2>
+        <section id="spotlight">
+            
+            
+        </section>
     </main>        
     <footer>
         <div>
