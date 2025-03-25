@@ -13,3 +13,21 @@
     }
 
 }
+
+@media only screen and (min-width: 725px) {
+    section.events {
+        max-width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 0.25rem;
+    }
+
+    #spotlight {
+        max-width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.25rem;
+    }
+}

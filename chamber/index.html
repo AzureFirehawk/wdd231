@@ -17,6 +17,7 @@
     <script src="scripts/navmenu.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
     <meta property="og:title" content="Noble Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://azurefirehawk.github.io/wdd231/chamber/images/noble-logo.png">
@@ -46,38 +47,46 @@
                 <img src="images/hero-small.webp" alt="Noble OK welcome sign" width="400">
             </picture>
             <div class="join-us">
-                <button id="join" class="button" aria-label="Join Us"><a href="join.html"><strong>Join Our Community</strong></a></button>
+                <p><a href="join.html" class="button">Join Our Community</a></p>
             </div>
         </div>
         <section class="events">
             <div>
                 <h2>Upcoming Events</h2>
                 <div id="events">
-
-                </div>
+                    <!-- Placeholder space -->
+                </div><br><br><br><br><br><br> 
             </div>
             <div>
                 <h2>Weather</h2>
                 <div id="weather">
-                    <p>Current Temperature: <span id="current-temp"></span> °F</p>    
+                    <p>Current Temperature: <span id="current-temp"></span></p>    
                     <figure>
-                        <img id="weather-icon" src="" alt="">
+                        <img id="weather-icon" src="images/placeholder.png" alt="alt text">
                         <figcaption></figcaption>
                     </figure>
                 </div>
             </div>
             <div>
                 <h2>Forecast</h2>
-                <div id="forecast">
-    
+                <div>
+                    <p><span id="today"></span></p>
+                    <img id="today-icon" src="images/placeholder.png" alt="alt text">
+                </div>
+                <div>
+                    <p><span id="tomorrow"></span></p>
+                    <img id="tomorrow-icon" src="images/placeholder.png" alt="alt text">
+                </div>
+                <div>
+                    <p><span id="day3"></span></p>
+                    <img id="day3-icon" src="images/placeholder.png" alt="alt text">
                 </div>
             </div>
         </section>
         <h2>Spotlight</h2>
-        <section id="spotlight">
+        <div id="spotlight">
             
-            
-        </section>
+        </div>
     </main>        
     <footer>
         <div>

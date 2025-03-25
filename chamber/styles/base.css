@@ -79,7 +79,7 @@ ul.nav li a {
 .nav li:hover, main a:hover {
     text-decoration: underline;
     background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(2px);
+    transform: translateY(-2px);
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
 }
 
@@ -135,7 +135,7 @@ div.join-us {
     left: 20%;
 }
 
-div.join-us button{
+div.join-us p{
     bottom: 5%;
     padding: 15px;
     font-family: var(--small-font);
@@ -145,19 +145,21 @@ div.join-us button{
     cursor: pointer;
 }
 
-div.join-us button a, .card a {
+div.join-us p a, .card a {
     text-decoration: none;
     color: black;
 }
 
-div.join-us button:hover {
+div.join-us p:hover {
     background-color: rgba(225,225,225,1);
     text-decoration: underline;
+    transform: translateY(-2px);
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
 }
 
-#cards, #spotlight {
+#cards{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(275px, 2fr));
     gap: 1rem;
 }
 
@@ -170,17 +172,13 @@ div.join-us button:hover {
     height: auto;
 }
 
-section.events {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 0.25rem;
-}
-
 section.events > div {
-    margin: 15px;
+    margin: 8px;
     background-color: white;
     border-radius: 10px;
+    padding: 10px;
 }
+
 
 
 /* Footer content */
