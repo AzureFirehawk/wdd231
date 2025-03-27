@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Madison Thomas">
+    <meta name="description" content="Noble Chamber of Commerce Join page WDD 231 Web Frontened Development I BYU-Idaho">
+    <title>Join - Noble Chamber of Commerce</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navmenu.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <meta property="og:title" content="Noble Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://azurefirehawk.github.io/wdd231/chamber/images/noble-logo.png">
+    <meta property="og:url" content="https://azurefirehawk.github.io/wdd231/chamber/directory.html">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/noble-logo.png" alt="Noble Chamber of Commerce Logo" id="noble" width="60" height="60">
+            <h2>Noble Chamber of Commerce</h2>
+        </div>
+        <button id="menuButton" aria-label="Menu"></button>
+        <nav id="animate">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>   
+                <li><a href="discover.html">Discover</a></li>         
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="join.html">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>   
+        <h1>Join Us</h1>     
+        <form method="get" action="thankyou.html">
+            <fieldset class ="personal">
+                <label for="fname">First Name
+                <input type="text" id="fname" name="fname" required autocomplete="given-name"></label>
+                <label for="lname">Last Name
+                <input type="text" id="lname" name="lname" required autocomplete="family-name"></label>
+                <label for="title">Organization Title
+                <input type="text" id="title" name="title" required autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}"></label>
+                <label for="email">Email
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="address@example.com"></label>
+                <label for="phone">Phone Number
+                <input type="tel" id="phone" name="phone" required autocomplete="tel-national" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+            </fieldset>
+            <!-- <fieldset class="membership">
+                <legend>Membership Levels</legend>
+                <label for="non-prof">Non Profit Membership Level</label>
+                <label for="bronze">Bronze Membership Level</label>
+                <label for="silver">Silver Membership Level</label>
+                <label for="gold">Gold Membership Level</label>
+            </fieldset> -->
+            <fieldset class="description">
+                <legend>Organization Description</legend>
+                <label for="description">Organization Description
+                <textarea name="description" id="description" cols="30" rows="10"></textarea></label>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+        <section class="membership">
+            <div id="non-profit">
+                <h3>Non Profit Membership Level</h3>
+
+            </div>
+            <div id="bronze">
+                <h3>Bronze Membership Level</h3>
+
+            </div>
+            <div id="silver">
+                <h3>Silver Membership Level</h3>
+
+            </div>
+            <div id="gold">
+                <h3>Gold Membership Level</h3>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>Noble Chamber of Commerce</h4>
+            <div>
+                <p>114 S Main Street</p>
+                <p>Noble, OK 73068</p>
+                <p>(405) 872-5535</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/facebook-icon.svg" alt="Facebook" width="50" height="50">
+            <img src="images/twitter-icon.svg" alt="Twitter" width="50" height="50">
+            <img src="images/linkedin-icon.svg" alt="LinkedIn" width="50" height="50">
+        </div>
+        <div>
+            <p>©<span id="currentyear"></span> 🎸 Madison Thomas 🎸 Oklahoma, USA</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
