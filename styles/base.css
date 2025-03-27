@@ -182,8 +182,6 @@ figcaption {
     transition: color 0.3s, background-color 0.3s;
 }
 
-
-
 .courses p {
     background-color: var(--heading-background);
     color: var(--heading-color);
@@ -197,6 +195,52 @@ figcaption {
 .courses .true {
     background-color: var(--heading-color);
     color: var(--heading-background);
+}
+
+/* Course Modals */
+
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: var(--box-background);
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-height: 90%;
+    max-width: 600px;
+}
+
+dialog p {
+    margin: 0;
+    text-align: left;
+}
+
+dialog::backdrop {
+    background-color: rgba(0,0,0,0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--heading-background);
+}
+
+dialog.boxtitle {
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid var(--heading-color);
+    margin: 0;
+}
+
+dialog button:hover {
+    background-color: var(--heading-color);
 }
 
 /* Footer content */

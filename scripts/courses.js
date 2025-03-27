@@ -85,7 +85,12 @@ function displayCourses(courses) {
 
         p.textContent = `${course.subject} ${course.number}`;
         p.setAttribute("class", `${course.completed}`);
+        p.setAttribute("type", "button");
         document.querySelector(".courses").appendChild(p);
+
+        p.addEventListener("click", () => {
+            showDetails(course);
+        })
     })
 }
 
@@ -94,6 +99,7 @@ displayCourses(courses);
 const all = document.querySelector("#all");
 const cse = document.querySelector("#CSE");
 const wdd = document.querySelector("#WDD");
+const courseDetails = document.querySelector("#course-details");
 
 all.addEventListener("click", () => {
     displayCourses(courses);
@@ -106,3 +112,20 @@ cse.addEventListener("click", () => {
 wdd.addEventListener("click", () => {
     displayCourses(courses.filter(course => course.subject === "WDD"));
 });
+
+function showDetails(course) {
+    courseDetails.innerHTML = "";
+    courseDetails.innerHTML = `
+        <button id="closeButton">❌</button>
+        <div class="boxtitle">
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3></div>
+        <p><strong>Credits:</strong> ${course.credits}</p>
+        <p><strong>Certificate:</strong> ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p>Technologies: ${course.technology.join(", ")}</p>
+    `;
+    courseDetails.showModal();
+
+    closeButton.addEventListener("click", () => courseDetails.close());
+}
