@@ -1,0 +1,47 @@
+:root {
+    --header-back: black;
+    --header-color: white;
+    --light-blue: #a3c5e2;
+    --dark-blue: #0472be;
+    --big-font: Lato, sans-serif;
+    --small-font: Montserrat, sans-serif;
+}
+
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--header-back);
+    color: var(--header-color);
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-height: 90%;
+    max-width: 600px;
+}
+
+dialog p {
+    margin: 0;
+    text-align: left;
+}
+
+dialog::backdrop {
+    background-color: rgba(0,0,0,0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: 0.5rem;    
+    border: none;
+    border-radius: 50px;
+    background-color: var(--heading-background);
+}
+
+dialog button:hover {
+    background-color: var(--dark-blue);
+}

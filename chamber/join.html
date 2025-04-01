@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="stylesheet" href="styles/modal.css">
     <link rel="icon" href="images/favicon.ico">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navmenu.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/membership.js" defer></script>
+    <script src="scripts/form.js"></script>
     <meta property="og:title" content="Noble Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://azurefirehawk.github.io/wdd231/chamber/images/noble-logo.png">
@@ -54,13 +54,6 @@
                 <label for="phone">Phone Number
                 <input type="tel" id="phone" name="phone" required autocomplete="tel-national" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
             </fieldset>
-            <!-- <fieldset class="membership">
-                <legend>Membership Levels</legend>
-                <label for="non-prof">Non Profit Membership Level</label>
-                <label for="bronze">Bronze Membership Level</label>
-                <label for="silver">Silver Membership Level</label>
-                <label for="gold">Gold Membership Level</label>
-            </fieldset> -->
             <fieldset class="description">
                 <legend>Organization Description</legend>
                 <label for="description">Organization Description
@@ -71,21 +64,22 @@
         <section class="membership">
             <div id="non-profit">
                 <h3>Non Profit Membership Level</h3>
-
+                <button id="np-button">Learn More</button>
             </div>
             <div id="bronze">
                 <h3>Bronze Membership Level</h3>
-
+                <button id="bronze-button">Learn More</button>
             </div>
             <div id="silver">
                 <h3>Silver Membership Level</h3>
-
+                <button id="silver-button">Learn More</button>
             </div>
             <div id="gold">
                 <h3>Gold Membership Level</h3>
-
+                <button id="gold-button">Learn More</button>
             </div>
         </section>
+        <dialog class="membership-modal"></dialog>
     </main>
     <footer>
         <div>
