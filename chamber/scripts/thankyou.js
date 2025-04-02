@@ -2,7 +2,7 @@ const getString = window.location.search;
 // console.log(getString);
 
 const formInfo = new URLSearchParams(getString);
-console.log(formInfo);
+// console.log(formInfo);
 
 document.querySelector('#submitted-info').innerHTML = `
 <p><strong>Name: </strong> ${formInfo.get('fname')} ${formInfo.get('lname')}</p>
