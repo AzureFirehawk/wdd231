@@ -220,21 +220,130 @@ section.membership {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: var(--dark-blue);
-    color: white;
     border-radius: 10px;
     width: 95%;
     padding: 10px;
     height: auto;
     border: solid 1px black;
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { opacity: 1; }
+}
+
+@keyframes colorshift-np {
+    0% { background-color: var(--dark-blue);
+        color: white; }
+    100% { background-color: var(--header-back);
+        color: white;}
+}
+
+@keyframes colorshift-bronze {
+    0% { background-color: var(--dark-blue);
+        color: white; }
+    100% {background-color: #CE8946; 
+        color: black;}
+}
+
+@keyframes colorshift-silver {
+    0% { background-color: var(--dark-blue);
+        color: white; }
+    100% { background-color: #C0C0C0; 
+        color: black;}
+}
+
+@keyframes colorshift-gold {
+    0% { background-color: var(--dark-blue);
+        color: white; }
+    100% { background-color: #FFD700; 
+        color: black;}
+}
+
+.membership > div#non-profit {
+    animation: colorshift-np 2s ease-in;
+    background-color: var(--header-back);
+    color: white;
+}
+
+.membership > div#bronze {
+    animation: colorshift-bronze 2s ease-in;
+    background-color: #CE8946; 
+    color: black;
+}
+
+.membership > div#silver {
+    animation: colorshift-silver 2s ease-in;
+    background-color: #C0C0C0; 
+    color: black;
+}
+
+.membership > div#gold {    
+    animation: colorshift-gold 2s ease-in;
+    background-color: #FFD700; 
+    color: black;
+}
+
+.membership > div button {
+    padding: 3px 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--small-font);
 }
 
 form {
+    background-color: var(--dark-blue);
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 95%;
 }
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: var(--small-font);
+    font-weight: bold;
+    text-align: left;
+}
+
+form legend {
+    font-family: var(--big-font);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+}
+
+form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: var(--small-font);
+    padding: 5px;
+}
+
 
 /* Footer content */
 
