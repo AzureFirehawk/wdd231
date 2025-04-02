@@ -21,3 +21,23 @@ window.addEventListener('load', () => {
     else if(digits.length > 3) {evt.target.value = `${areaCode}-${prefix}`;}
     else if(digits.length > 0) {evt.target.value = `${areaCode}`;}
   };
+  
+
+function formatTimestamp() {
+    const now = new Date();
+    return formattedTimestamp = now.toLocaleString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: true
+    });
+  };
+
+document.getElementById("joinForm").addEventListener("submit", function() {
+
+const formattedTimestamp = formatTimestamp();
+document.getElementById("timestamp").value = formattedTimestamp;
+});

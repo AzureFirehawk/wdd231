@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Madison Thomas">
+    <meta name="description" content="Noble Chamber of Commerce thank you page WDD 231 Web Frontened Development I BYU-Idaho">
+    <title>Thank You - Noble Chamber of Commerce</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navmenu.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <meta property="og:title" content="Noble Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://azurefirehawk.github.io/wdd231/chamber/images/noble-logo.png">
+    <meta property="og:url" content="https://azurefirehawk.github.io/wdd231/chamber/directory.html">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/noble-logo.png" alt="Noble Chamber of Commerce Logo" id="noble" width="60" height="60">
+            <h2>Noble Chamber of Commerce</h2>
+        </div>
+        <button id="menuButton" aria-label="Menu"></button>
+        <nav id="animate">
+            <ul class="nav">
+                <li class="active"><a href="index.html">Home</a></li>   
+                <li><a href="discover.html">Discover</a></li>         
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="thankyou">        
+        <h1>Thank You</h1>
+        <h3>Your information has been submitted.</h3>
+
+        <div id="submitted-info">
+
+        </div>
+    </main>        
+    <footer>
+        <div>
+            <h4>Noble Chamber of Commerce</h4>
+            <div>
+                <p>114 S Main Street</p>
+                <p>Noble, OK 73068</p>
+                <p>(405) 872-5535</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/facebook-icon.svg" alt="Facebook" width="50" height="50">
+            <img src="images/twitter-icon.svg" alt="Twitter" width="50" height="50">
+            <img src="images/linkedin-icon.svg" alt="LinkedIn" width="50" height="50">
+        </div>
+        <div>
+            <p>©<span id="currentyear"></span> 🎸 Madison Thomas 🎸 Oklahoma, USA</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -17,7 +17,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navmenu.js" defer></script>
     <script src="scripts/membership.js" defer></script>
-    <script src="scripts/form.js"></script>
+    <script src="scripts/form.js" defer></script>
     <meta property="og:title" content="Noble Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://azurefirehawk.github.io/wdd231/chamber/images/noble-logo.png">
@@ -41,7 +41,7 @@
     </header>
     <main class="join-main">   
         <h1>Join Us</h1>     
-        <form method="get" action="thankyou.html">
+        <form id="joinForm" method="get" action="thankyou.html">
             <fieldset class ="personal">
                 <legend>Personal Information</legend>
                 <label for="fname">First Name
@@ -53,14 +53,28 @@
                 <label for="email">Email
                 <input type="email" id="email" name="email" required autocomplete="email" placeholder="address@example.com"></label>
                 <label for="phone">Phone Number
-                <input type="tel" id="phone" name="phone" required autocomplete="tel-national" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+                <label for="business">Business Name
+                <input type="text" id="business" name="business" required autocomplete="organization"></label>
+            </fieldset>
+            <fieldset class="member-radio">
+                <legend>Membership Level</legend>
+                <label for="np-member">Non Profit
+                <input type="radio" name="membership" id="np-member" required></label>
+                <label for="bronze-member">Bronze
+                <input type="radio" name="membership" id="bronze-member"></label>
+                <label for="silver-member">Silver
+                <input type="radio" name="membership" id="silver-member"></label>
+                <label for="gold-member">Gold
+                <input type="radio" name="membership" id="gold-member"></label>
             </fieldset>
             <fieldset class="description">
                 <legend>Organization Description</legend>
                 <label for="description">*optional
                 <textarea name="description" id="description" cols="30" rows="10"></textarea></label>
             </fieldset>
-            <button type="submit">Join</button><br>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            <button type="submit" id="submit">Join</button><br>
         </form>
         <section class="membership">
             <div id="non-profit">
