@@ -2,26 +2,85 @@
     "title": "Discover",
     "cards": [
         {
-            "image": "images/temple.jpg",
-            "name": "Temple",
+            "name": "Riley Park",
             "address": [
                 {
-                    "line1": "123 Main Street",
-                    "line2": "Noble, OK 73068"
+                "line1": "1400 S. Main Street",
+                "line2": "Noble, OK 73068"
                 }
             ],
-            "description": "filler text"
+            "description": "Riley Park is an eleven-acre park featuring lighted asphalt walking trails, a large covered picnic pavilion, restrooms, park benches, picnic tables, and barbecue pits. The park is traversed by Berry Creek and includes the historic abandoned Santa Fe Railroad Bridge from 1887."
         },
         {
-            "image": "images/temple.jpg",
-            "name": "Temple",
+            "name": "Dane Park",
             "address": [
                 {
-                    "line1": "123 Main Street",
-                    "line2": "Noble, OK 73068"
+                "line1": "501 S. 8th Street",
+                "line2": "Noble, OK 73068"
                 }
             ],
-            "description": "filler text"
+            "description": "Dane Park is a five-acre park home to Austin Haley’s Splash Pad. The park's master plan includes a lighted walking trail, community garden area, picnic tables, a skateboard facility, a pavilion, and restrooms."
+        },
+        {
+            "name": "Austin’s Big Splash",
+            "address": [
+                {
+                "line1": "501 S. 8th Street",
+                "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "Opened in 2007, Austin’s Big Splash is a 5,000-square-foot splash pad featuring state-of-the-art nozzles that spray water when activated. The facility is open during the summer months and offers a fun water recreation experience for all ages."
+        },
+        {
+            "name": "Kenneth L. King Park",
+            "address": [
+                {
+                "line1": "1000 E. Maguire Road",
+                "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "Kenneth L. King Park is a twenty-acre nature park featuring a one-mile hard-surface, lighted walking trail, restrooms, a pavilion, paved parking, and an 18-hole disc golf course. The park is heavily wooded, offering a rustic setting for visitors."
+        },
+        {
+            "name": "Timberlake Rose Rock Museum",
+            "address": [
+                {
+                "line1": "419 S. Hwy 77",
+                "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "The Timberlake Rose Rock Museum showcases Oklahoma's state rock, the rose rock. Visitors can explore a variety of specimens, including massive clusters, and learn about the geological history of these unique formations."
+        },
+        {
+            "name": "Noble Scaregrounds",
+            "address": [
+                {
+                "line1": "14501 E. Etowah Road",
+                "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "Noble Scaregrounds offers a haunting experience with attractions like the 'Sweet Nightmares Trail' and 'The Séance.' Open during October, it provides thrilling entertainment, including axe throwing and themed food at 'The Gut Hut.'"
+        },
+        {
+            "name": "Rose Rock Music Festival",
+            "address": [
+                {
+                "line1": "304 S. Main Street",
+                "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "Held annually on the first weekend in May, the Rose Rock Music Festival celebrates Noble's designation as the Rose Rock Capital of the World. The festival features a parade, live music, food vendors, craft booths, and a carnival."
+        },
+        {
+            "name": "Sam Noble Museum",
+            "address": [
+                {
+                "line1": "2401 Chautauqua Ave",
+                "line2": "Norman, OK 73072"
+                }
+            ],
+            "description": "Located in nearby Norman, the Sam Noble Museum offers exhibits on Oklahoma's natural history, including dinosaur skeletons, Native American artifacts, and interactive displays for all ages."
         }
     ]
+    
 }
