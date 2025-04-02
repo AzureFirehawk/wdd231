@@ -42,4 +42,15 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 0.25rem;
     }
+
+    .join-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .join-main h1 {
+        grid-column: 1/3;
+    }
 }
