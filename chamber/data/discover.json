@@ -1,0 +1,27 @@
+{
+    "title": "Discover",
+    "cards": [
+        {
+            "image": "images/temple.jpg",
+            "name": "Temple",
+            "address": [
+                {
+                    "line1": "123 Main Street",
+                    "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "filler text"
+        },
+        {
+            "image": "images/temple.jpg",
+            "name": "Temple",
+            "address": [
+                {
+                    "line1": "123 Main Street",
+                    "line2": "Noble, OK 73068"
+                }
+            ],
+            "description": "filler text"
+        }
+    ]
+}
