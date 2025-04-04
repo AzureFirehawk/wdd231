@@ -28,11 +28,12 @@
         margin: 0 auto;
     }
 
-    .locationCard img:hover {
+    .locationCard .locationImage:hover {
         transform: scale(1.1);
         border-radius: 15px;
         transition: transform 0.3s, border-radius 0.3s ease-in;
     }
+
 }
 
 @media only screen and (min-width: 725px) {

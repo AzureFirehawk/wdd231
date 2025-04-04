@@ -13,6 +13,7 @@ getLocations();
 function displayLocations(locations) {
     locations.forEach(location => {
         let card = document.createElement('section');
+        let imagebox = document.createElement('div');
         let image = document.createElement('img');
         let name = document.createElement('h2');
         let address = document.createElement('div');
@@ -23,6 +24,7 @@ function displayLocations(locations) {
         let overlay = document.createElement('div');
 
         card.setAttribute('class', 'locationCard');
+        image.setAttribute('class', 'locationImage');
         image.setAttribute('src', location.image);
         image.setAttribute('alt', `${location.name}`);
         image.setAttribute('loading', 'lazy');
@@ -39,7 +41,7 @@ function displayLocations(locations) {
         learn.textContent = 'Learn More';
 
         address.append(line1, line2);
-        card.append(image, name, address, description, learn);
+        card.append(image, overlay, name, address, description, learn);
         cards.appendChild(card);
     })
 };
