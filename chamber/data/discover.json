@@ -3,6 +3,7 @@
     "cards": [
         {
             "name": "Riley Park",
+            "image": "./images/riley-park-sign.webp",
             "address": [
                 {
                 "line1": "1400 S. Main Street",
@@ -13,6 +14,7 @@
         },
         {
             "name": "Dane Park",
+            "image": "./images/dane-park-sign.webp",
             "address": [
                 {
                 "line1": "501 S. 8th Street",
@@ -23,6 +25,7 @@
         },
         {
             "name": "Austin’s Big Splash",
+            "image": "./images/austin-splash.webp",
             "address": [
                 {
                 "line1": "501 S. 8th Street",
@@ -33,6 +36,7 @@
         },
         {
             "name": "Kenneth L. King Park",
+            "image": "./images/kenneth-king.webp",
             "address": [
                 {
                 "line1": "1000 E. Maguire Road",
@@ -43,6 +47,7 @@
         },
         {
             "name": "Timberlake Rose Rock Museum",
+            "image": "./images/timberlake-rose-rock.webp",
             "address": [
                 {
                 "line1": "419 S. Hwy 77",
@@ -53,6 +58,7 @@
         },
         {
             "name": "Noble Scaregrounds",
+            "image": "./images/noble-scaregrounds.webp",
             "address": [
                 {
                 "line1": "14501 E. Etowah Road",
@@ -63,6 +69,7 @@
         },
         {
             "name": "Rose Rock Music Festival",
+            "image": "./images/roserockfest.webp",
             "address": [
                 {
                 "line1": "304 S. Main Street",
@@ -73,6 +80,7 @@
         },
         {
             "name": "Sam Noble Museum",
+            "image": "./images/sam-noble-museum.webp",
             "address": [
                 {
                 "line1": "2401 Chautauqua Ave",

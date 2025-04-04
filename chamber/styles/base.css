@@ -183,7 +183,7 @@ div.join-us p:hover{
     background-color: var(--dark-blue);
 }
 
-#cards.grid, #cards.list {
+#cards.grid, #cards.list, #locations {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(275px, 2fr));
     gap: 1rem;
@@ -365,6 +365,91 @@ form button {
     margin-bottom: 20px;
     margin-top: -20px;
     font-family: var(--small-font);
+}
+
+/* Discover Page */
+
+#visit-banner {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease, transform 0.5s ease, all 0.5s ease;
+}
+
+#visit-banner.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#visit-banner.closed {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#locations {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.locationCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: px;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    border: solid 1px black;
+}
+
+.locationCard img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    z-index: 11;
+}
+
+.locationCard button {
+    padding: 5px 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+    font-family: var(--small-font);
+}
+
+.locationCard button:hover {
+    background-color: var(--header-back);
+    text-decoration: underline;
+    transition: color 0.3s, background-color 0.3s, text-decoration 0.3s;
+}
+
+.locationCard .address p {
+    margin-top: -5px;
+}
+
+.locationCard .address p:last-child {
+    margin-bottom: 15px;
 }
 
 /* Footer content */
