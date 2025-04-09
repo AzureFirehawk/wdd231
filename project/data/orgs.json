@@ -1,0 +1,238 @@
+[
+    {
+        "name": "Oklahoma Breastfeeding Resource Center (OBRC)",
+        "address": [
+            "920 Stanton L Young Blvd",
+            "WP 2230",
+            "Oklahoma City, OK 73104"
+        ],
+        "phone": "(405) 271-6162",
+        "category": ["Breastfeeding"],
+        "description": "Provides free virtual and in-person lactation consultations, educational resources, and a 24/7 breastfeeding hotline.",
+        "website": "https://obrc.ouhsc.edu/",
+        "image": "./images/obrc-logo.webp",
+        "urltext": "obrc.ouhsc.edu"
+    },
+    {
+        "name": "WIC (Women, Infants, and Children Program)",
+        "address": [
+            "123 Robert S. Kerr Ave.",
+            "Suite 1702",
+            "Oklahoma City, OK 73102"
+        ],
+        "phone": "(405) 426-8500",
+        "category": ["Breastfeeding", "Baby Supplies"],
+        "description": "Offers free breastfeeding support, peer counselors, breast pumps (if eligible), and nutrition assistance for pregnant women, postpartum mothers, and children under 5.",
+        "website": "https://oklahoma.gov/health/services/children-family-health/wic.html",
+        "image": "./images/wic-logo.webp",
+        "urltext": "oklahoma.gov/health"
+    },
+    {
+        "name": "La Leche League of Oklahoma City",
+        "address": [
+            "Contact for meeting locations"
+        ],
+        "phone": "Contact via website",
+        "category": ["Breastfeeding", "Family Support"],
+        "description": "Provides free peer support groups, advice, and resources for breastfeeding mothers.",
+        "website": "https://www.lllok.org/",
+        "image": "./images/la-leche-logo.webp",
+        "urltext": "www.lllok.org"
+    },
+    {
+        "name": "A Brighter Day",
+        "address": [
+            "800 W Rock Creek Rd", 
+            "Suite 115",
+            "Norman OK 73069"
+        ],
+        "phone": "(405) 968-3343",
+        "category": ["Parenting", "Baby Supplies", "Pregnancy", "Family Support"],
+        "description": "Offers free pregnancy support, parenting classes, and resources for new and expecting parents.",
+        "website": "https://www.facebook.com/abrighterdaynormanok/",
+        "image": "./images/brighter-day-logo.webp",
+        "urltext": "facebook.com/abrighterdaynormanok"
+    },
+    {
+        "name": "Parent Promise",
+        "address": [
+            "4323 NW 63rd St.",
+            "Suite 200",
+            "Oklahoma City, OK 73116"
+        ],
+        "phone": "(405) 232-2500",
+        "category": ["Parenting", "Single Parents"],
+        "description": "Offers free in-home parenting education and support, focusing on child development, home safety, and emotional well-being, especially for young or single parents.",
+        "website": "https://parentpromise.org/",
+        "image": "./images/parent-promise-logo.webp",
+        "urltext": "parentpromise.org"
+    },
+    {
+        "name": "Sunbeam Family Services",
+        "address": [
+            "1100 NW 14th St.",
+            "Oklahoma City, OK 73106"
+        ],
+        "phone": "(405) 528-7721",
+        "category": ["Parenting", "Family Support"],
+        "description": "Provides free parenting classes, early childhood education, mental health resources, and support programs for families.",
+        "website": "https://sunbeamfamilyservices.org/",
+        "image": "./images/sunbeam-logo.webp",
+        "urltext": "sunbeamfamilyservices.org"
+    },
+    {
+        "name": "Bethany Children's Health Center – Community Classes",
+        "address": [
+            "6800 NW 39th Expy",
+            "Bethany, OK 73008"
+        ],
+        "phone": "(405) 789-6711",
+        "category": ["Parenting"],
+        "description": "Hosts free infant CPR, parenting, and first aid classes, offering resources for families with medical needs.",
+        "website": "https://www.bethanychildrens.org/",
+        "image": "./images/bethany-logo.webp",
+        "urltext": "bethanychildrens.org"
+    },
+    {
+        "name": "Infant Crisis Services",
+        "address": [
+            "4224 N. Lincoln Blvd",
+            "Oklahoma City, OK 73105"
+        ],
+        "phone": "(405) 528-3663",
+        "category": ["Baby Supplies"],
+        "description": "Provides emergency formula, diapers, baby food, clothing, and equipment for children under 4, free for families in crisis.",
+        "website": "https://www.infantcrisis.org/",
+        "image": "./images/infant-crisis-logo.webp",
+        "urltext": "infantcrisis.org"
+    },
+    {
+        "name": "Catholic Charities – Family H.O.P.E. Program",
+        "address": [
+            "1232 N. Classen Blvd", 
+            "Oklahoma City, OK 73106"
+        ],
+        "phone": "(405) 523-3000",
+        "category": ["Family Support", "Parenting", "Single Parents"],
+        "description": "Offers support for single parents, including housing assistance, life skills training, and parenting help, open to all regardless of religion.",
+        "website": "https://catholiccharitiesok.org/family-case-management",
+        "image": "./images/catholic-charities-logo.webp",
+        "urltext": "catholiccharitiesok.org"
+    },
+    {
+        "name": "Positive Tomorrows",
+        "address": [
+            "1134 NW 8th St",
+            "Oklahoma City, OK 73106"
+        ],
+        "phone": "(405) 556-5082",
+        "category": ["Family Support", "Single Parents"],
+        "description": "Supports single-parent families experiencing homelessness by offering schooling for children, parent education, and housing assistance.",
+        "website": "https://www.positivetomorrows.org/",
+        "image": "./images/positive-tomorrows-logo.webp",
+        "urltext": "positivetomorrows.org"
+    },
+    {
+        "name": "MOPS (Mothers of Preschoolers) – OKC Groups",
+        "address": [
+            "Various locations"
+        ],
+        "phone": "Contact via website",
+        "category": ["Parenting"],
+        "description": "Provides community and support for moms through local chapters, with some groups offering free or low-cost meetings and childcare.",
+        "website": "https://www.mops.org/groupsearch",
+        "image": "./images/mops-logo.webp",
+        "urltext": "mops.org"
+    },
+    {
+        "name": "Hope Pregnancy Center OKC North",
+        "address": [
+            "10327 N. May Avenue",
+            "Oklahoma City, OK 73120"
+        ],
+        "phone": "(405) 755-5433",
+        "category": ["Pregnancy", "Parenting", "Baby Supplies", "Single Parents"],
+        "description": "Offers free pregnancy tests, ultrasounds, parenting classes, material support, and fatherhood coaching.",
+        "website": "https://thinkimpregnant.org/",
+        "image": "./images/hope-pregnancy-center-logo.webp",
+        "urltext": "thinkimpregnant.org"
+    },
+    {
+        "name": "Family Expectations",
+        "address": [
+            "3 E Main St",
+            "Oklahoma City, OK 73104"
+        ],
+        "phone": "(405) 639-2054",
+        "category": ["Parenting", "Baby Supplies", "Pregnancy"],
+        "description": "Family Expectations is a free program in Oklahoma City designed for new and expecting parents to prepare for the challenges of parenthood. Through a series of workshops, the program focuses on strengthening relationships, enhancing parenting skills, and connecting participants with job opportunities to better provide for their families. Participants can earn incentives such as free diapers and 'Crib Cash' to purchase baby essentials.",
+        "website": "https://familyexpectations.com/",
+        "image": "./images/family-expectations-logo.webp",
+        "urltext": "familyexpectations.com"
+    },
+    {
+        "name": "TRUE Dads",
+        "address": [
+            "3 E Main St",
+            "Oklahoma City, OK 73104"
+        ],
+        "phone": "(405) 418-3888",
+        "category": ["Parenting", "Single Parents", "Baby Supplies"],
+        "description": "TRUE Dads is a free program in Oklahoma City that empowers fathers to be actively involved in their children's lives. The program offers workshops focusing on parenting, relationship skills, and employment assistance. Participants gain tools to support their children's development, build healthy relationships, and achieve job success. TRUE Dads provides support such as transportation assistance, childcare stipends, and financial incentives to encourage participation.",
+        "website": "https://www.truedads.com/",
+        "image": "./images/true-dads-logo.webp",
+        "urltext": "truedads.com"
+    },
+    {
+        "name": "parentPRO",
+        "address": [
+            "123 Robert S. Kerr Ave.",
+            "Oklahoma City, OK 73102-6406"
+        ],
+        "phone": "(405) 271-7611",
+        "category": ["Parenting", "Family Support"],
+        "description": "parentPRO connects parents and caregivers with free, voluntary family support programs delivered in the comfort of their homes. Services include parenting support, education, and resources tailored to each family's needs.",
+        "website": "https://www.parentpro.org/",
+        "image": "./images/parentpro-logo.webp",
+        "urltext": "parentpro.org"
+    },
+    {
+        "name": "Healthy Start Initiative",
+        "address": [
+            "3017 N. Martin Luther King Blvd.",
+            "Oklahoma City, OK 73111"
+        ],
+        "phone": "(405) 427-3200",
+        "category": ["Pregnancy", "Parenting", "Family Support"],
+        "description": "This voluntary program provides services and support for mothers and fathers before, during, and after pregnancy to help them have healthy babies. Services include parenting and pregnancy support and education, breastfeeding education and support, relationship development, and healthy lifestyle choices.",
+        "website": "https://www.communityhealthok.org/healthy-start-initiative",
+        "image": "./images/healthy-start-logo.webp",
+        "urltext": "communityhealthok.org"
+    },
+    {
+        "name": "Children First",
+        "address": [
+            "Oklahoma City-County Health Department",
+            "Oklahoma City, OK 73111"
+        ],
+        "phone": "(405) 427-8651",
+        "category": ["Pregnancy", "Parenting", "Family Support"],
+        "description": "Children First is a voluntary program offered at no charge to first-time mothers. Registered nurses provide family support services during pregnancy and up to the child's second birthday, focusing on prenatal care and personal development.",
+        "website": "https://oklahoma.gov/health/locations/county-health-departments/kay-county-health-department/home-visitation-services/children-first.html",
+        "image": "./images/children-first-logo.webp",
+        "urltext": "oklahoma.gov/health"
+    },
+    {
+        "name": "Willow Pregnancy Support",
+        "address": [
+            "4701 S Western Ave",
+            "Oklahoma City, OK 73109"
+        ],
+        "phone": "(405) 631-4477",
+        "category": ["Pregnancy", "Parenting", "Family Support", "Baby Supplies"],
+        "description": "Willow Pregnancy Support offers educational resources on pregnancy, childbirth, parenting, and reproductive health, along with counseling services. They also provide maternity shelter, medical care in partnership with SSM Health, and essential baby supplies.",
+        "website": "https://willowpregnancy.org/",
+        "image": "./images/willow-logo.webp",
+        "urltext": "willowpregnancy.org"
+    }
+]
