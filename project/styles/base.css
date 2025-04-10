@@ -166,7 +166,7 @@ label {
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: var(--blue);
+    background-color: var(--mint);
     color: var(--text);
     font-family: var(--body-font);
     text-align: center;
@@ -246,7 +246,7 @@ label {
 }
 
 .modal-content {
-    background-color: var(--blue);
+    background-color: var(--mint);
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
