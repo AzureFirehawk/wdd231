@@ -1,6 +1,7 @@
 [
     {
         "name": "Oklahoma Breastfeeding Resource Center (OBRC)",
+        "shortname": "OBRC",
         "address": [
             "920 Stanton L Young Blvd",
             "WP 2230",
@@ -15,6 +16,7 @@
     },
     {
         "name": "WIC (Women, Infants, and Children Program)",
+        "shortname": "WIC",
         "address": [
             "123 Robert S. Kerr Ave.",
             "Suite 1702",
@@ -22,13 +24,14 @@
         ],
         "phone": "(405) 426-8500",
         "category": ["Breastfeeding", "Baby Supplies"],
-        "description": "Offers free breastfeeding support, peer counselors, breast pumps (if eligible), and nutrition assistance for pregnant women, postpartum mothers, and children under 5.",
+        "description": "Offers free breastfeeding support, peer counselors, breast pumps (if eligible), and nutrition assistance for pregnant women, postpartum mothers, and children under 5 years of age.",
         "website": "https://oklahoma.gov/health/services/children-family-health/wic.html",
         "image": "./images/wic-logo.webp",
         "urltext": "oklahoma.gov/health"
     },
     {
         "name": "La Leche League of Oklahoma City",
+        "shortname": "La Leche League",
         "address": [
             "Contact for meeting locations"
         ],
@@ -41,6 +44,7 @@
     },
     {
         "name": "A Brighter Day",
+        "shortname": "A Brighter Day",
         "address": [
             "800 W Rock Creek Rd", 
             "Suite 115",
@@ -51,10 +55,11 @@
         "description": "Offers free pregnancy support, parenting classes, and resources for new and expecting parents.",
         "website": "https://www.facebook.com/abrighterdaynormanok/",
         "image": "./images/brighter-day-logo.webp",
-        "urltext": "facebook.com/abrighterdaynormanok"
+        "urltext": "facebook.com/abrighterday"
     },
     {
         "name": "Parent Promise",
+        "shortname": "Parent Promise",
         "address": [
             "4323 NW 63rd St.",
             "Suite 200",
@@ -69,6 +74,7 @@
     },
     {
         "name": "Sunbeam Family Services",
+        "shortname": "Sunbeam",
         "address": [
             "1100 NW 14th St.",
             "Oklahoma City, OK 73106"
@@ -82,6 +88,7 @@
     },
     {
         "name": "Bethany Children's Health Center – Community Classes",
+        "shortname": "Bethany Children's",
         "address": [
             "6800 NW 39th Expy",
             "Bethany, OK 73008"
@@ -95,6 +102,7 @@
     },
     {
         "name": "Infant Crisis Services",
+        "shortname": "Infant Crisis Services",
         "address": [
             "4224 N. Lincoln Blvd",
             "Oklahoma City, OK 73105"
@@ -108,6 +116,7 @@
     },
     {
         "name": "Catholic Charities – Family H.O.P.E. Program",
+        "shortname": "Catholic Charities",
         "address": [
             "1232 N. Classen Blvd", 
             "Oklahoma City, OK 73106"
@@ -121,6 +130,7 @@
     },
     {
         "name": "Positive Tomorrows",
+        "shortname": "Positive Tomorrows",
         "address": [
             "1134 NW 8th St",
             "Oklahoma City, OK 73106"
@@ -134,6 +144,7 @@
     },
     {
         "name": "MOPS (Mothers of Preschoolers) – OKC Groups",
+        "shortname": "Mothers of Preschoolers",
         "address": [
             "Various locations"
         ],
@@ -146,6 +157,7 @@
     },
     {
         "name": "Hope Pregnancy Center OKC North",
+        "shortname": "Hope Pregnancy Center",
         "address": [
             "10327 N. May Avenue",
             "Oklahoma City, OK 73120"
@@ -159,6 +171,7 @@
     },
     {
         "name": "Family Expectations",
+        "shortname": "Family Expectations",
         "address": [
             "3 E Main St",
             "Oklahoma City, OK 73104"
@@ -172,6 +185,7 @@
     },
     {
         "name": "TRUE Dads",
+        "shortname": "TRUE Dads",
         "address": [
             "3 E Main St",
             "Oklahoma City, OK 73104"
@@ -185,6 +199,7 @@
     },
     {
         "name": "parentPRO",
+        "shortname": "parentPRO",
         "address": [
             "123 Robert S. Kerr Ave.",
             "Oklahoma City, OK 73102-6406"
@@ -198,6 +213,7 @@
     },
     {
         "name": "Healthy Start Initiative",
+        "shortname": "Healthy Start",
         "address": [
             "3017 N. Martin Luther King Blvd.",
             "Oklahoma City, OK 73111"
@@ -211,6 +227,7 @@
     },
     {
         "name": "Children First",
+        "shortname": "Children First",
         "address": [
             "Oklahoma City-County Health Department",
             "Oklahoma City, OK 73111"
@@ -224,6 +241,7 @@
     },
     {
         "name": "Willow Pregnancy Support",
+        "shortname": "Willow",
         "address": [
             "4701 S Western Ave",
             "Oklahoma City, OK 73109"

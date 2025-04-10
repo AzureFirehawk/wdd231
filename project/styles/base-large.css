@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+    body {
+        position: relative;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul.nav{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    nav{
+        grid-template-rows: 1fr;
+    }
+}
