@@ -7,4 +7,4 @@ function showNextSlide() {
     slides[currentSlide].classList.add('active');
 }
 
-setInterval(showNextSlide, 7000); // Change image every 4 seconds
+setInterval(showNextSlide, 6000); 

@@ -23,6 +23,8 @@
     nav{
         grid-template-rows: 1fr;
     }
+
+    
 }
 
 @media only screen and (min-width: 725px) {
@@ -40,5 +42,9 @@
         position: sticky;
         top: 40%;
         right: 15px;
+    }
+    
+    #home-cards {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
