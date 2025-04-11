@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Baby Steps Support Network</title>
+    <meta name="author" content="Madison Thomas">
+    <meta name="description" content="WDD 231 baby steps project contact page Web Frontened Development I BYU-Idaho">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/navmenu.js" defer></script>
+    <script src="scripts/bs-form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <meta property="og:title" content="Baby Steps Support Network">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/bs-logo-text-long.webp" alt="Baby Steps Logo" height="100">
+        </div>
+        <button id="menuButton" aria-label="Menu"></button>
+        <nav id="animate">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>         
+                <li><a href="resources.html">Resources</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <main id="contact-main">
+        <div id="contact-form">
+            <h1>Contact Us Here</h1>
+            <form action="thankyou.html" method="get">
+                <fieldset class="text-input">
+                    <h3>My Contact Information</h3>
+                    <label for="fname">First Name:*</label>
+                    <input type="text" id="fname" name="fname" required>
+                    
+                    <label for="lname">Last Name:*</label>
+                    <input type="text" id="lname" name="lname" required>
+                    
+                    <label for="phone" id="phone-label">Phone Number: </label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    
+                    <label for="email" id="email-label">Email Address: </label>
+                    <input type="email" id="email" name="email">
+                    
+                </fieldset>
+                <fieldset class="boxes">
+                    <h3>Contact Me By:*</h3>
+                    <label for="email-message" class="check-option">
+                        <input type="checkbox" id="email-message" name="preferred" value="email">
+                        <span>Email 📧</span>
+                    </label>
+                    <label for="call" class="check-option">
+                        <input type="checkbox" id="call" name="preferred" value="call">
+                        <span>Phone Call 📞</span>
+                    </label>
+                    <label for="text" class="check-option">
+                        <input type="checkbox" id="text" name="preferred" value="text">
+                        <span>Text Message 📱</span>
+                    </label>
+                </fieldset>
+                <fieldset >
+                    <h3>What I am Interested In:*</h3>
+                    <label for="group" class="check-option">
+                        <input type="checkbox" id="group" name="interest" value="group">
+                        <span>Support Group Meetings 🪑</span>
+                    </label>
+                    <label for="supporter" class="check-option">
+                        <input type="checkbox" id="supporter" name="interest" value="supporter">
+                        <span>Becoming a Supporter 💖</span>
+                    </label>
+                    <label for="information" class="check-option">
+                        <input type="checkbox" id="information" name="interest" value="information">
+                        <span>General Information ❓</span>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h3>Additional Comments or Questions:</h3>
+                    <textarea name="comments" id="comments" cols="30" rows="8"></textarea>
+                </fieldset>
+                <button type="submit">Send My Request</button>
+            </form>
+        </div>
+        <aside id="contact-aside">
+            <h3>Or Reach Out Directly</h3>
+            <div id="contact-card">
+                <div class="contact-block">
+                    <h4>Phone: </h4>
+                    <p>405-555-5555</p>
+                </div>
+                <div class="contact-block">
+                    <h4>Email: </h4>
+                    <p>babystepsSN@gmail.com</p>
+                </div>
+                <div class="contact-block">
+                    <h4>Address: </h4>                    
+                    <p>800 Rock Creek Rd</p>
+                    <p>Suite 119</p>
+                    <p>Norman, OK 73069</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div id="footbackground">
+            <div id="footer-logo">
+                <img src="images/bs-text.webp" alt="Baby Steps Logo" height="100">
+            </div>
+            <div id="footer-social">
+                <img src="images/facebook-icon.svg" alt="Facebook Logo" height="40">
+                <img src="images/twitter-icon.svg" alt="Twitter Logo" height="40">
+                <img src="images/discord-icon.svg" alt="Discord Logo" height="40">
+            </div>
+            <div id="footer-info">
+                <p>©<span id="currentyear"></span> 🎸 Madison Thomas 🎸 Oklahoma, USA</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
