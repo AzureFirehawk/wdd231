@@ -24,3 +24,21 @@
         grid-template-rows: 1fr;
     }
 }
+
+@media only screen and (min-width: 725px) {
+    #contact-main {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    #contact-form {
+        flex: 1 1 500px;
+    }
+    
+    #contact-aside {
+        flex: 0 0 25%;
+        position: sticky;
+        top: 40%;
+        right: 15px;
+    }
+}
