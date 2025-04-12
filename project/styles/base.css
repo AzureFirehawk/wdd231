@@ -431,8 +431,6 @@ fieldset {
 .text-input {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    
 }
 
 .check-option {
@@ -484,6 +482,18 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: static; 
+}
+
+#contact-aside h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#contact-aside .contact-block {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 /* Thank You Page */
