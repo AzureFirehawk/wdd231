@@ -40,7 +40,24 @@ function displayOrgs(orgs, filterCategory = 'all') {
 filter.addEventListener('change', (event) => {
   const selectedCategory = event.target.value;
   displayOrgs(data, selectedCategory);
+
+  const banner = document.getElementById('filter-banner');
+  const previousFilter = localStorage.getItem('lastShownFilter');
+
+  if (selectedCategory !== previousFilter) {
+    banner.textContent = `Now showing resources for ${selectedCategory}`;
+    banner.classList.add('show');
+
+    // Hide after 3 seconds
+    setTimeout(() => {
+      banner.classList.remove('show');
+    }, 3000);
+
+    localStorage.setItem('lastShownFilter', selectedCategory);
+  }
 });
+
+
 
 (async function init() {
   data = await getOrgData();
